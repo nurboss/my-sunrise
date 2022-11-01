@@ -3,11 +3,10 @@
 html{
     scroll-behavior: smooth;
 }
-/* body{
+body{
     height: 100vh;
     overflow-y: hidden;
-    position: relative;
-} */
+}
 *{
     margin: 0;
     padding: 0;
@@ -643,7 +642,7 @@ h2 {
             padding: 0 65px 0 45px;
         }
         .emai_input_field_btn input{
-            width: 100%;
+            width: 80%;
         }
         .teram_and_text_div{
             width: 100%;
