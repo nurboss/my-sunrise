@@ -3,11 +3,11 @@
 html{
     scroll-behavior: smooth;
 }
-body{
-    height: 100%;
+/* body{
+    height: 100vh;
     overflow-y: hidden;
     position: relative;
-}
+} */
 *{
     margin: 0;
     padding: 0;
@@ -252,55 +252,6 @@ h2 {
         width: 80px;
     }
 }
-/* #residential {
-    -webkit-filter: brightness(0) invert(1);
-    filter: grayscale(100%);
-}
-
-#residential:hover {
-    -webkit-filter: none;
-    filter: none;
-}
-.img-filter{
-    filter: none;
-}
-
-.icon-residential {
-    display: block;
-    margin-right: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-.icon-residential:hover {
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-}
-.glass-bg {
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.button-padding{
-    margin-bottom: 30px;
-}
-
-.icon-residential img {
-    cursor: pointer;
-    padding-bottom: 20px;
-    width: 200px;
-    margin: 0 20px;
-} */
 
 .home_ans{
     text-align: center;
