@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="submit.css">
+    <title>SubmitPage</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="img/Senga-logo.png" alt="">
+        </div>
+        <div class="child-container">
+            <div class="img-div">
+                <img src="img/energy.png" alt="">
+            </div>
+            <h1 id="text" class="heading-text">Using Our Solar you can save 40% of your <br> electric bill.</h1>
+            <div class="btn-div">             
+                   <button class="btn"><a href="tel:01934459721">Call Now</a></button>               
+                <a href="https://calendly.com/rjackson-66" target="_blank">
+                    <button class="btn">Book appointment</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+       let localData = JSON.parse(window.sessionStorage.getItem("user"));
+       let persentValue = (parseInt(localData.electricBill) * 40 ) / 100 ;
+       const finalValue = Math.trunc(persentValue)
+       const showText = document.querySelector("#text");
+       showText.innerHTML= `Congratulations ${localData.firstName} You will save $${finalValue}<br> on your monthly electricity bills`
+       console.log(localData);
+    </script>
+</body>
+</html>
